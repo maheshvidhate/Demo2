@@ -9,14 +9,10 @@ public class NewTest {
   public void f() {
 	  System.out.println("test for facebook new123");
 	  WebDriver driver=new FirefoxDriver();
-	  try{Thread.sleep(3000);}catch(Exception e){}
-	  System.out.println("pass 1");
+	  System.out.println("open browser");
 	  driver.get("http://www.facebook.com");
-	  System.out.println("pass 2");
-	  try{Thread.sleep(3000);}catch(Exception e){}
-	  System.out.println(driver.getTitle());
-	  try{Thread.sleep(3000);}catch(Exception e){}
-	  System.out.println("pass 3");
+	  System.out.println("go to facebook");
+	  System.out.println("title"+driver.getTitle());
 	  driver.quit();
   }
 }
