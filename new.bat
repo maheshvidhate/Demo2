@@ -1,0 +1,1 @@
+java -cp "C:\Users\GS-1260\workspace\Demo\lib\testng.jar";"C:\Users\GS-1260\workspace\Demo\lib\selenium-server-standalone-2.53.1.jar";"C:\Users\GS-1260\workspace\Demo\bin" org.testng.TestNG "C:\Users\GS-1260\workspace\Demo\testng.xml"
